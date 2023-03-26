@@ -7,7 +7,7 @@ const _ = require("lodash");
 const mongoose = require("mongoose");
 
 const homeStartingContent = "The internet is flooded with millions of blogs, covering every topic under the sun. But the thing is, this blog is special. It's a unique and groundbreaking experience";
-const aboutContent = "I could tell you that I'm a world-renowned cheese sculptor, or that I hold the world record in 'fastest time to eat a whole watermelon without using your hands'." 
+const aboutContent = "I could tell you that I'm a world-renowned cheese sculptor, or that I hold the world record in 'fastest time to eat a whole watermelon without using your hands'.";
 
 
 const contactContent = "Scelerisque eleifend donec pretium vulputate sapien. Rhoncus urna neque viverra justo nec ultrices. Arcu dui vivamus arcu felis bibendum. Consectetur adipiscing elit duis tristique. Risus viverra adipiscing at in tellus integer feugiat. Sapien nec sagittis aliquam malesuada bibendum arcu vitae. Consequat interdum varius sit amet mattis. Iaculis nunc sed augue lacus. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Pulvinar elementum integer enim neque. Ultrices gravida dictum fusce ut placerat orci nulla. Mauris in aliquam sem fringilla ut morbi tincidunt. Tortor posuere ac ut consequat semper viverra nam libero.";
