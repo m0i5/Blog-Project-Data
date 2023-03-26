@@ -6,15 +6,9 @@ const ejs = require("ejs");
 const _ = require("lodash");
 const mongoose = require("mongoose");
 
-const homeStartingContent = [text1, text2];
-
-const text1 = "The internet is flooded with millions of blogs, covering every topic under the sun. But the thing is, this blog is special. It's a unique and groundbreaking experience. We could talk about the intricacies of quantum physics or the complex nuances of political theory, but let's face it, not everyone finds those topics interesting. So instead, let's take a moment to appreciate the lyrical genius that is Lil Wayne. So let's take a quick break from the mundane and dive into some of Lil Wayne's most iconic lyrics. 'Life is a beach, I'm just playing in the sand' from his hit song '6 Foot 7 Foot' reminds us to live in the moment and enjoy the simple things in life. And who could forget the unforgettable line from 'Lollipop': 'She say I'm like a lollipop, she say I'm like a lollipop, she say I'm like a lollipop' - truly a lyrical masterpiece."
-const text2 = "So next time you're feeling bogged down by the weight of the world, just remember Lil Wayne's words of wisdom: 'Money over everything, money on my mind' (from 'Mirror'). Thanks, Lil Wayne, for always keeping it real."
-
+const homeStartingContent = "The internet is flooded with millions of blogs, covering every topic under the sun. But the thing is, this blog is special. It's a unique and groundbreaking experience. We could talk about the intricacies of quantum physics or the complex nuances of political theory, but let's face it, not everyone finds those topics interesting. So instead, let's take a moment to appreciate the lyrical genius that is Lil Wayne. So let's take a quick break from the mundane and dive into some of Lil Wayne's most iconic lyrics. 'Life is a beach, I'm just playing in the sand' from his hit song '6 Foot 7 Foot' reminds us to live in the moment and enjoy the simple things in life. And who could forget the unforgettable line from 'Lollipop': 'She say I'm like a lollipop, she say I'm like a lollipop, she say I'm like a lollipop' - truly a lyrical masterpiece. So next time you're feeling bogged down by the weight of the world, just remember Lil Wayne's words of wisdom: 'Money over everything, money on my mind' (from 'Mirror'). Thanks, Lil Wayne, for always keeping it real."
 
 const aboutContent = "I could tell you that I'm a world-renowned cheese sculptor, or that I hold the world record in 'fastest time to eat a whole watermelon without using your hands'.";
-
-
 const contactContent = "Scelerisque eleifend donec pretium vulputate sapien. Rhoncus urna neque viverra justo nec ultrices. Arcu dui vivamus arcu felis bibendum. Consectetur adipiscing elit duis tristique. Risus viverra adipiscing at in tellus integer feugiat. Sapien nec sagittis aliquam malesuada bibendum arcu vitae. Consequat interdum varius sit amet mattis. Iaculis nunc sed augue lacus. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Pulvinar elementum integer enim neque. Ultrices gravida dictum fusce ut placerat orci nulla. Mauris in aliquam sem fringilla ut morbi tincidunt. Tortor posuere ac ut consequat semper viverra nam libero.";
 
 const app = express();
