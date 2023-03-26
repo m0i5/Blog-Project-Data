@@ -110,7 +110,7 @@ app.get("/posts/:postId", function(req, res){
     .catch(function(err){
       console.log(err);
     })
- 
+
  
 });
  
